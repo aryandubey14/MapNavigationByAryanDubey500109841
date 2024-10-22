@@ -1,0 +1,33 @@
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mapnavigationbyaryan_dubey_500109841.MainActivity">
+
+
+        <EditText
+            android:id="@+id/destinationInput"
+            android:layout_width="358dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="Enter Destination Location" />
+
+        <Button
+            android:id="@+id/commuteBtn"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:text="Start Journey" />
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
